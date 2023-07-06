@@ -1,0 +1,87 @@
+body{
+    background: url("/currencyconverter/images/pexels-david-mcbee-730547.jpg");
+    background-size: 1380px 620px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-blend-mode: lighten;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 400px;
+    padding: 10px 24px;
+    margin: 250px auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 90px;
+}
+h4{
+    text-align: center;
+    color: red;
+}
+h1{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    padding: 0px;
+}
+.container .box{
+    width: 100%;
+    display: flex;
+}
+.box div{
+    width: 100%;
+}
+.currency{
+    width: 185px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background: linear-gradient(90deg ,rgb(185, 166, 59), rgb(182, 169, 97), rgb(194, 189, 165));
+}
+select{
+    width: 95%;
+    height: 40px;
+    font-size: 0.5 em;
+    cursor: pointer;
+    outline: none;
+    padding: 0px 0px 0px 20px;
+    color: black;
+
+}
+input{
+    width: 165px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline;
+    padding: 0px 0px 0px 20px;
+    background: linear-gradient(270deg ,rgb(185, 166, 59), rgb(182, 169, 97), rgb(194, 189, 165));
+}
+input{
+    width: 80%;
+    height: 36px;
+
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: rgb(185, 166, 59);
+    border: none;
+    font-size: 1.1em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
